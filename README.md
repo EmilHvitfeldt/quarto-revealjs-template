@@ -10,3 +10,11 @@ The goal of quarto-revealjs-template is to act as my personal starter template f
 - Adds a empty script div `all-the-js-code.html` file and includes it for use with [Revealjs events](https://revealjs.com/events/)
 - Changes aspect ratio to 16/9
 - Changes default of `code-line-numbers` to `false`
+
+## Installation
+
+To start a new presentation:
+
+``` bash
+quarto use template EmilHvitfeldt/quarto-revealjs-template
+```
