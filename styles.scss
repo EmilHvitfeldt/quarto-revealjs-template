@@ -1,3 +1,27 @@
+$colors: (
+  "white": #FFFFFF,
+  "black": #222222
+);
+
+/*-- scss:functions --*/
+
+@function theme-color($color) {
+  @return map-get($colors, $color);
+}
+
 /*-- scss:defaults --*/
 
+$body-bg: theme-color("white");
+$body-color: theme-color("black");
+
 /*-- scss:rules --*/
+
+@each $name, $color in $colors {
+  .text-#{$name} {
+    color: $color;
+  }
+
+  .bg-#{$name} {
+    background-color: $color;
+  }
+}
