@@ -1,2 +1,3 @@
 quarto-revealjs-template.Rproj
+.vscode/*
 !.vscode/revealjs-sass-variables.code-snippets
