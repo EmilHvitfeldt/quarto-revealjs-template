@@ -11,6 +11,8 @@ The goal of quarto-revealjs-template is to act as my personal starter template f
 - Changes aspect ratio to 16/9
 - Changes default of `code-line-numbers` to `false`
 
+![](starter-template.webp)
+
 ## Installation
 
 To start a new presentation:
